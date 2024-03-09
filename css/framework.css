@@ -10,6 +10,9 @@
 .p-10 {
     padding: 10px;
 }
+.p-15 {
+    padding: 15px;
+}
 .p-20 {
     padding: 20px;
 }
@@ -35,7 +38,7 @@
 /* End Position */
 /* Start Fonts */
 .txt-c {
-    text-align: center
+    text-align: center;
 }
 .fs-14 {
     font-size: 14px;
@@ -46,3 +49,15 @@
     border-radius: 6px;
 }
 /* End Border */
+/* Start Size */
+.w-full {
+    width: 100%;
+}
+/* End Size */
+/* Start Componants */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End Componants */

@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Css main file -->
-    <link rel="stylesheet" href="css/style.css">
     <!-- Css Framework -->
     <link rel="stylesheet" href="css/framework.css">
+        <!-- Css main file -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Font awsoeme library -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Normalise Library -->
     <link rel="stylesheet" href="css/normalis.css">
     <!-- Font Family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
     <title>Dashborad</title>
 </head>
 <body>
     <div class="page d-flex">
-        <div class="sidebar bg-white  p-20 p-relative txt-c">
-            <h3 class="p-relative mt-0">Elshkh</h3>
+        <div class="sidebar bg-white  p-20 p-relative">
+            <h3 class="p-relative mt-0 txt-c">Elshkh</h3>
             <ul>
                 <li>
                     <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
@@ -73,8 +72,20 @@
                 </li>
             </ul>
         </div>
-        <div class="content">
-
+        <div class="content w-full">
+            <!-- Start Header -->
+            <header class="bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" name="" placeholder="Type A keyword" id="">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-larg"></i>
+                    </span>
+                    <img src="images/avatar.png" alt="avatar">
+                </div>
+            </header>
+            <!-- End Header -->
         </div>
     </div>
 </body>

@@ -98,12 +98,12 @@ html {
 }
 @media(max-width: 767px) {
     .sidebar {
-        width: 62px;
+        width: 58px;
         padding: 10px;
     }
     .sidebar > h3 {
         margin-bottom: 15px;
-        font-size: 13px;
+        font-size: 11px;
     }
     .sidebar > h3::before,
     .sidebar > h3::after,
