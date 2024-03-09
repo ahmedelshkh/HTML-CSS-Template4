@@ -60,4 +60,24 @@
     justify-content: space-between;
     align-items: center;
 }
+.page h1 {
+    margin: 30px 20px;
+}
+.page h1::before,
+.page h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+}
+.page h1::before {
+    width: 120px;
+    background-color: white;
+}
+.page h1::after {
+    width: 40px;
+    background-color: black;
+}
+
 /* End Componants */
