@@ -1,4 +1,12 @@
 /* start global rules */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -113,3 +121,48 @@ html {
 
 }
 /* End Sidebar */
+/* Start Content */
+.content {
+    overflow: hidden;
+}
+.content header .search::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f002";
+    font-weight: 900;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: var(--grey-color);
+}
+.content header input {
+    border: 1px solid #ccc;
+    border-radius:10px;
+    outline: none;
+    width: 160px;
+    margin-left: 5px;
+    padding-left: 30px;
+    transition: width 0.3s;
+}
+.content header input:focus {
+    width: 200px;
+}
+.content header input:focus::placeholder {
+    opacity: 0;
+}
+.content header .notification::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+.content header .icons img {
+    width: 32px;
+    margin-left: 15px;
+}
+/* End Content */
