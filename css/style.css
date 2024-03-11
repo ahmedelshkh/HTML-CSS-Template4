@@ -231,3 +231,15 @@ html {
         }
 }
 /* End Welcoming Widget */
+/* Start Quick Draft */
+.quick-draft textarea {
+    resize: none;
+    min-height: 180px;
+}
+.quick-draft .save {
+    margin: 0 15px 15px auto;
+}
+.quick-draft .save:hover {
+    background-color: var(--blue-alt-color);
+}
+/* End Quick Draft */
