@@ -62,6 +62,9 @@
 .mt-20 {
     margin-top: 20px;
 }
+.mb-10 {
+    margin-bottom: 10px;
+}
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -75,6 +78,12 @@
 }
 .bg-blue {
     background-color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
 }
 .c-white {
     color: white;
@@ -117,6 +126,9 @@
 .fs-15 {
     font-size: 15px
 }
+.fw-bold {
+    font-weight: bold;
+}
 @media (max-width: 767px) {
     .txt-c-mobile {
         text-align: center;
@@ -141,12 +153,20 @@
 .w-fit {
     width: fit-content;
 }
+.h-4 {
+    height: 4px;
+}
 /* End Size */
 /* Start Componants */
 .between-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-shape {
     padding: 4px 10px;
