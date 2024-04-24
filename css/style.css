@@ -348,3 +348,23 @@ html {
     }
 }
 /* End latest News */
+/* Start Latest Tasks */
+.tasks .row:not(:last-of-type) {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.tasks .mark {
+    opacity: .3;
+}
+.tasks .mark h3,
+.tasks .mark p {
+    text-decoration: line-through;
+}
+.tasks .row i {
+    cursor: pointer;
+}
+.tasks .row i:hover {
+    color: red;
+}
+/* End Latest Tasks */
