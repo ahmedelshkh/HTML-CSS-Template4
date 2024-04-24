@@ -368,3 +368,9 @@ html {
     color: red;
 }
 /* End Latest Tasks */
+/* Start Top Search Word Wiget */
+.top-search .row:not(:last-of-type){
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+/* End Top Search Word Wiget */
