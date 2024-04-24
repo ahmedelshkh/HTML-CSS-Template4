@@ -324,3 +324,27 @@ html {
     }
 }
 /* End Tickets */
+/* Start latest News */
+.news .box:not(:last-of-type) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.news .box img {
+    width: 100px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+.news .box .text {
+    flex-grow: 1;
+}
+@media (max-width: 767px) {
+    .news .box {
+        display: block;
+    }
+    .news .box .label {
+        width: fit-content;
+        margin: 10px auto;
+    }
+}
+/* End latest News */
