@@ -238,6 +238,7 @@ html {
 }
 .quick-draft .save {
     margin: 0 15px 15px auto;
+    transition: .3s;
 }
 .quick-draft .save:hover {
     background-color: var(--blue-alt-color);
@@ -385,3 +386,49 @@ html {
     margin-right: 10px;
 }
 /* End Latest uploads widget */
+/* Start Last Projects Progress Widget */
+.projects-progress ul::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 11px;
+    background-color: var(--blue-color);
+    
+}
+.projects-progress ul li::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+    outline: 2px solid var(--blue-color);
+    z-index: 1;
+    margin-right: 15px;
+}
+.projects-progress ul li.done::before {
+    background-color: var(--blue-color);
+}
+.projects-progress ul li.current::before {
+    animation: change-color .8s infinite alternate;
+}
+.projects-progress .launch-icon {
+    position: absolute;
+    width: 160px;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+}
+/* End Last Projects Progress Widget */
+/* Start Animation */
+@keyframes change-color {
+    from {
+        background-color: var(--blue-color);
+    }
+    to {
+        background-color: white;
+    }
+}
+/* End Animation */
