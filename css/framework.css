@@ -50,6 +50,12 @@
 .p-20 {
     padding: 20px;
 }
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
 .pl-10 {
     padding-left: 10px;
 }
@@ -85,6 +91,9 @@
 }
 .mb-10 {
     margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom:15px;
 }
 .mb-20 {
     margin-bottom: 20px;
@@ -175,6 +184,9 @@
 .b-none {
     border: none;
 }
+.bb-ccc {
+    border-bottom: 1px solid #ccc;
+}
 .rad-half {
     border-radius: 50%;
 }
@@ -191,6 +203,9 @@
 }
 .w-fit {
     width: fit-content;
+}
+.w-50 {
+    width: 50px;
 }
 .h-4 {
     height: 4px;

@@ -450,3 +450,10 @@ html {
     height: 20px;
 }
 /* End Reminders Widget */
+/* Start Latest Post Widget */
+.latest-post .description p {
+    text-transform: capitalize;
+    line-height: 1.8;
+    min-height: 100px;
+}
+/* Start Latest Post Widget */
