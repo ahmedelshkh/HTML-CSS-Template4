@@ -432,3 +432,21 @@ html {
     }
 }
 /* End Animation */
+/* Start Reminders Widget */
+.reminders ul li .content.blue {
+    border-left: 2px solid var(--blue-color);
+}
+.reminders ul li .content.green {
+    border-left: 2px solid var(--green-color);
+}
+.reminders ul li .content.orange {
+    border-left: 2px solid var(--orange-color);
+}
+.reminders ul li .content.red {
+    border-left: 2px solid var(--red-color);
+}
+.reminders ul li > span {
+    width: 20px;
+    height: 20px;
+}
+/* End Reminders Widget */
