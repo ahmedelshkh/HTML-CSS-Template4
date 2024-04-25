@@ -374,3 +374,14 @@ html {
     padding-bottom: 15px;
 }
 /* End Top Search Word Wiget */
+/* Start Latest uploads widget */
+.latest-uploads .content .row:not(:last-of-type) {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.latest-uploads .content .row img {
+    width: 40px;
+    margin-right: 10px;
+}
+/* End Latest uploads widget */
