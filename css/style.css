@@ -422,16 +422,6 @@ html {
     opacity: .3;
 }
 /* End Last Projects Progress Widget */
-/* Start Animation */
-@keyframes change-color {
-    from {
-        background-color: var(--blue-color);
-    }
-    to {
-        background-color: white;
-    }
-}
-/* End Animation */
 /* Start Reminders Widget */
 .reminders ul li .content.blue {
     border-left: 2px solid var(--blue-color);
@@ -457,3 +447,69 @@ html {
     min-height: 100px;
 }
 /* Start Latest Post Widget */
+/* Start Social Media Stats Widget */
+.social-media .content .box .button {
+    font-size: 13px;
+}
+.social-media .content .box:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+.social-media .content .box .icon{
+    width: 52px;
+    transition: .3s;
+}
+/* ICONS COLOR */
+.social-media .content .box.twitter .icon,
+.social-media .content .box.twitter .button {
+    background-color: #1da1f2;
+}
+.social-media .content .box.youtube .icon,
+.social-media .content .box.youtube .button {
+    background-color: #ff0000;
+}
+.social-media .content .box.facebook .icon,
+.social-media .content .box.facebook .button {
+    background-color: #1877f2;
+}
+.social-media .content .box.linkedin .icon,
+.social-media .content .box.linkedin .button {
+    background-color: #0077b5;
+}
+/* BACKGROUND COLOR */
+.social-media .content .box.twitter {
+    background-color: rgb(29 161 242 / 20%);
+    color: #1da1f2;
+}
+.social-media .content .box.youtube {
+    background-color: rgb(255 0 0 / 20%);
+    color: #ff0000;
+}
+.social-media .content .box.facebook {
+    background-color: rgb(24 119 242 / 20%);
+    color: #1da1f2;
+}
+.social-media .content .box.linkedin {
+    background-color: rgb(0 119 181 / 20%);
+    color: #0077b5;
+}
+.social-media .content .box .icon:hover {
+    background-color: #ccc;
+}
+/* End Social Media Stats Widget */
+
+
+
+
+
+/* Start Animation */
+@keyframes change-color {
+    from {
+        background-color: var(--blue-color);
+    }
+
+    to {
+        background-color: white;
+    }
+}
+
+/* End Animation */
