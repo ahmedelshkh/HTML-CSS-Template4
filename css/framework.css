@@ -171,6 +171,9 @@
 .fs-16 {
     font-size: 16px;
 }
+.fs-20 {
+    font-size: 20px;
+}
 .fs-25 {
     font-size: 25px;
 }
@@ -192,6 +195,9 @@
 }
 .bb-ccc {
     border-bottom: 1px solid #ccc;
+}
+.ol-none {
+    outline: none;
 }
 .rad-half {
     border-radius: 50%;

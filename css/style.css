@@ -587,10 +587,16 @@ html {
         gap: 10px;
     }
 }
+/* Start Site control Widget */
 .setting-page .site-control .close-message {
     outline: none;
     height: 150px;
     resize: none;
+}
+/* Start General Info Widget */
+.general-info input[type='email'] {
+    background-color: #f0f4f8;
+    width: calc(100% - 80px);
 }
 /* End Setting Page */
 
