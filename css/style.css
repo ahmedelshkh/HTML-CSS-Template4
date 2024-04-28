@@ -576,6 +576,22 @@ html {
     color: var(--blue-color);
     
 }
+.setting-page {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr))
+}
+@media(max-width: 767px) {
+    .setting-page {
+        grid-template-columns: minmax(100px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+.setting-page .site-control .close-message {
+    outline: none;
+    height: 150px;
+    resize: none;
+}
 /* End Setting Page */
 
 

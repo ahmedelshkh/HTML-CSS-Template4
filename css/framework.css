@@ -187,6 +187,9 @@
 .b-none {
     border: none;
 }
+.b-ccc {
+    border: 1px solid #ccc;
+}
 .bb-ccc {
     border-bottom: 1px solid #ccc;
 }
