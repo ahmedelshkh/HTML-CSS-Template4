@@ -679,6 +679,60 @@ html {
     color: white;
     transform: scale(0);
 }
+/* Start Backup Manager Widget */
+.setting-page .backup-manager .plan label {
+    padding-left: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.setting-page .backup-manager .plan label:before,
+.setting-page .backup-manager .plan label:after {
+    position: absolute;
+    border-radius: 50%; 
+}
+.setting-page .backup-manager .plan input:checked + label:after {
+    transform: scale(1);
+}
+.setting-page .backup-manager .plan label:before {
+    content: '';
+    border: 2px solid var(--blue-color);
+    width: 18px;
+    height: 18px;
+    margin-top: -11px;
+    top: 50%;
+    left: 0;
+}
+.setting-page .backup-manager .plan label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: var(--blue-color);
+    left: 5px;
+    top: 3px;
+    transition: .3s;
+    transform: scale(0);
+}
+.setting-page .backup-manager label {
+    cursor: pointer;
+}
+@media(max-width: 767px) {
+    .setting-page .backup-manager .servers {
+        flex-direction: column;
+    }
+    .setting-page .backup-manager .servers .server {
+        margin-right: 0;
+    }
+}
+.setting-page .backup-manager .servers .server {
+    border: 2px solid #bbb;
+    position: relative;
+    transition: .3s;
+    margin-right: 10px;
+}
+.setting-page .backup-manager .servers input:checked + .server {
+    color: var(--blue-color);
+    border-color: var(--blue-color);
+}
 /* End Setting Page */
 
 
