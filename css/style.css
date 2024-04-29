@@ -630,6 +630,55 @@ html {
     padding-left: 10px;
     background-color: #f6f6f6;
 }
+/* Start Widgets Info Widget */
+.setting-page input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.setting-page input:checked + label::after {
+    transform: scale(1);
+}
+.setting-page .widgets-info label {
+    padding-left: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 15px;
+}
+.setting-page .widgets-info li {
+    padding-bottom: 15px;
+}
+.setting-page .widgets-info label:hover::before {
+    border-color: var(--blue-color);
+}
+.setting-page .widgets-info label:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--grey-color);
+}
+.setting-page .widgets-info label:before,
+.setting-page .widgets-info label:after {
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    margin-top: -9px;
+    border-radius: 4px;
+    transition: .3s;
+}
+.setting-page .widgets-info label:after {
+    font-family: var(--fa-style-family-classic);
+    content: "\f00c";
+    font-weight: 900;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-color);
+    color: white;
+    transform: scale(0);
+}
 /* End Setting Page */
 
 
