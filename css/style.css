@@ -598,6 +598,13 @@ html {
     background-color: #f0f4f8;
     width: calc(100% - 80px);
 }
+/* Start Security Info Widget */
+.security-info .button {
+    transition: .3s
+}
+.security-info .button:hover {
+    background-color: var(--blue-alt-color);
+}
 /* End Setting Page */
 
 
