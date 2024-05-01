@@ -734,7 +734,29 @@ html {
     border-color: var(--blue-color);
 }
 /* End Setting Page */
-
+/* Start Profile Page */
+.profile-page .overview .avatar-box img {
+    width: 120px;
+    height: 120px;
+}
+.profile-page .overview .avatar-box .prograss {
+    width: 100%;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #eee;
+}
+.profile-page .overview .avatar-box .prograss span {
+    border-radius: 4px;
+    display: block;
+    height: 100%;
+    width: 70%;
+    background-color: var(--blue-color);
+}
+.profile-page .overview .avatar-box .stars i {
+    font-size: 14px;
+    color: var(--orange-color);
+}
+/* ENd Profile Page */
 
 /* Start Animation */
 @keyframes change-color {
