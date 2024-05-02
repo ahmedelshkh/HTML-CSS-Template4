@@ -794,6 +794,34 @@ html {
         flex-direction: column;
     }
 }
+.profile-page .other-data .activity {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.profile-page .other-data .latest-activity img {
+    width: 64px;
+    margin-right: 10px;
+}
+@media (min-width: 768px) {
+    .profile-page .other-data .activity .date {
+        margin-left: auto;
+        text-align: right;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-page .other-data .activity {
+        flex-direction: column;
+    }
+    .profile-page .other-data .activity img {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .profile-page .other-data .activity .date {
+        margin-top: 15px;
+    }
+}
 /* End Other Data */
 /* ENd Profile Page */
 
