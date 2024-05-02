@@ -735,6 +735,14 @@ html {
 }
 /* End Setting Page */
 /* Start Profile Page */
+/* Start Overview Widget */
+.profile-page .overview {
+    flex-wrap: wrap;
+}
+.profile-page .overview .avatar-box {
+    border-right: 1px solid #eee;
+    width: 300px;
+}
 .profile-page .overview .avatar-box img {
     width: 120px;
     height: 120px;
@@ -756,6 +764,27 @@ html {
     font-size: 14px;
     color: var(--orange-color);
 }
+.profile-page .overview .info-box .box {
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    transition: .3s;
+}
+.profile-page .overview .info-box .box:hover {
+    background-color: #f9f9f9;
+}
+.profile-page .overview .info-box .box h4 {
+    font-weight: normal;
+}
+.profile-page .overview .info-box .box > div {
+    width: 250px;
+    padding: 10px 0 0;
+}
+@media (max-width: 767px) {
+    .profile-page .overview .info-box .toggle-switch {
+        margin: auto;
+    }
+}
+/* End Overview Widget */
 /* ENd Profile Page */
 
 /* Start Animation */
