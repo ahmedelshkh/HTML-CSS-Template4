@@ -13,6 +13,9 @@
 .flex-1 {
     flex: 1;
 }
+.flex-2 {
+    flex: 2;
+}
 .f-wrap {
     flex-wrap: wrap;
 }
@@ -49,6 +52,9 @@
 }
 .p-20 {
     padding: 20px;
+}
+.pt-15 {
+    padding-top: 15px;
 }
 .pb-10 {
     padding-bottom: 10px;
@@ -201,6 +207,9 @@
 }
 .bb-ccc {
     border-bottom: 1px solid #ccc;
+}
+.bb-eee {
+    border-bottom: 1px solid #eee;
 }
 .ol-none {
     outline: none;

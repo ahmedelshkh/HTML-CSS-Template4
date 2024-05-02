@@ -736,9 +736,12 @@ html {
 /* End Setting Page */
 /* Start Profile Page */
 /* Start Overview Widget */
-.profile-page .overview {
+@media (max-width: 767px) {
+    .profile-page .overview {
     flex-wrap: wrap;
 }
+}
+
 .profile-page .overview .avatar-box {
     border-right: 1px solid #eee;
     width: 300px;
@@ -785,6 +788,13 @@ html {
     }
 }
 /* End Overview Widget */
+/* Start Other Data */
+@media (max-width: 767px) {
+    .profile-page .other-data {
+        flex-direction: column;
+    }
+}
+/* End Other Data */
 /* ENd Profile Page */
 
 /* Start Animation */
