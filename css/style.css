@@ -826,8 +826,39 @@ html {
 /* ENd Profile Page */
 /* Start Projects Page */
 .projects-page {
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
+}
+.projects-page .box .images {
+    min-height: 80px;
+}
+.projects-page .box .images img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.projects-page .box .images img:not(:first-of-type) {
+    margin-left: -15px;
+}
+.projects-page .box .footer .prograss {
+    width: 220px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #eee;
+}
+.projects-page .box .footer span {
+    border-radius: 4px;
+    height: 100%;
+}
+.projects-page .box .footer span.red {
+    background-color: var(--red-color);
+}
+.projects-page .box .footer span.green {
+    background-color: var(--green-color);
+}
+.projects-page .box .footer span.blue {
+    background-color: var(--blue-color);
 }
 /* End Projects Page */
 /* Start Animation */
