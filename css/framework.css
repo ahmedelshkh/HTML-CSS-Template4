@@ -116,6 +116,9 @@
 .mr-15 {
     margin-right: 15px;
 }
+.ml-auto {
+    margin-left: auto;
+}
 /* end padding + margin */
 /* Start color */
 .bg-white {
@@ -171,6 +174,9 @@
 .txt-c {
     text-align: center;
 }
+.txt-right {
+    text-align: right;
+}
 .fs-13 {
     font-size: 13px;
 }
@@ -191,6 +197,9 @@
 }
 .fw-bold {
     font-weight: bold;
+}
+.fw-normal {
+    font-weight: normal;
 }
 @media (max-width: 767px) {
     .txt-c-mobile {

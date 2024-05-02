@@ -794,7 +794,7 @@ html {
         flex-direction: column;
     }
 }
-.profile-page .other-data .activity {
+.profile-page .other-data .activity:not(:last-child) {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
@@ -824,7 +824,12 @@ html {
 }
 /* End Other Data */
 /* ENd Profile Page */
-
+/* Start Projects Page */
+.projects-page {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+}
+/* End Projects Page */
 /* Start Animation */
 @keyframes change-color {
     from {
