@@ -986,6 +986,12 @@ html {
 .files-page .files-statics .button {
     margin: 15px auto 0 auto;
 }
+.files-page .files-statics .button:hover {
+    background-color: var(--blue-alt-color);
+}
+.files-page .files-statics .button:hover i {
+    animation: go-up .8s infinite;
+}
 /* End Files Page */
 /* Start Animation */
 @keyframes change-color {
@@ -997,5 +1003,13 @@ html {
         background-color: white;
     }
 }
-
+@keyframes go-up {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
 /* End Animation */
