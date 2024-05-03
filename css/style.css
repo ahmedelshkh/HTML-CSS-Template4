@@ -945,10 +945,9 @@ html {
 .files-page .box .file img {
     width: 65px;
     height: 65px;
-    transition: .3s;
 }
 .files-page .files .box .file:hover {
-    transform: scale(1.11);
+    transform: scale(1.11) rotate(4deg);
 }
 /* End Files Page */
 /* Start Animation */
