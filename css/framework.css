@@ -113,6 +113,9 @@
 .mb-20 {
     margin-bottom: 20px;
 }
+.mr-5 {
+    margin-right: 5px;
+}
 .mr-15 {
     margin-right: 15px;
 }
@@ -213,6 +216,9 @@
 }
 .b-ccc {
     border: 1px solid #ccc;
+}
+.bt-eee {
+    border-top: 1px solid #eee;
 }
 .bb-ccc {
     border-bottom: 1px solid #ccc;

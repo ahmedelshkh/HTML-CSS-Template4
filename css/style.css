@@ -861,6 +861,34 @@ html {
     background-color: var(--blue-color);
 }
 /* End Projects Page */
+/* Start Courses Page */
+.courses-page {
+    grid-template-columns: repeat(auto-fill , minmax(250px, 1fr));
+    gap: 20px;
+}
+.courses-page .box p {
+    line-height: 1.6;
+}
+.courses-page .box .image .cover {
+    max-width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+.courses-page .box .image .flow-img {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border: 3px solid white;
+    border-radius: 50%;
+    left: 25px;
+    top: 25px;
+}
+.courses-page .box .info .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -13px;
+}
+/* End Courses Page */
 /* Start Animation */
 @keyframes change-color {
     from {
