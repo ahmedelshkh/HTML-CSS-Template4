@@ -148,6 +148,9 @@
 .c-black {
     color: black;
 }
+.c-666 {
+    color: #666;
+}
 .c-blue
     {
     color: var(--blue-color);
@@ -213,6 +216,9 @@
 /* Start Border */
 .b-none {
     border: none;
+}
+.b-50 {
+    border-radius: 50%;
 }
 .b-ccc {
     border: 1px solid #ccc;
