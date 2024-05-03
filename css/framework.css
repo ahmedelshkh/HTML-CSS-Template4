@@ -25,8 +25,14 @@
 .space-between {
     justify-content: space-between;
 }
+.fdir-column {
+    flex-direction: column;
+}
 .d-grid {
     display: grid;
+}
+.gap-10 {
+    gap: 10px;
 }
 .gap-20 {
     gap: 20px;
@@ -121,6 +127,9 @@
 }
 .mr-5 {
     margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
 }
 .mr-15 {
     margin-right: 15px;
