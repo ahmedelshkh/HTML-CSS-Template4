@@ -929,6 +929,28 @@ html {
     right: 10px;
 }
 /* End Friends Page */
+/* Start Files Page */
+.files-page .files {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.files-page .box > i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.files-page .files .box .file {
+    transition: .3s;
+}
+.files-page .box .file img {
+    width: 65px;
+    height: 65px;
+    transition: .3s;
+}
+.files-page .files .box .file:hover {
+    transform: scale(1.11);
+}
+/* End Files Page */
 /* Start Animation */
 @keyframes change-color {
     from {
