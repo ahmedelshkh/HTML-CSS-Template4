@@ -1026,7 +1026,7 @@ html {
     color: var(--red-color);
     font-size: 18px;
 }
-.plans-page .box ul li:not(:last-of-type) {
+.plans-page .box ul li {
     border-bottom: 1px solid #eee;
 }
 /* End Plans Page */

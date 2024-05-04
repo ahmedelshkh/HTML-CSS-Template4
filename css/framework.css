@@ -140,6 +140,9 @@
 .ml-auto {
     margin-left: auto;
 }
+.mlr-auto {
+    margin: 0 auto;
+}
 /* end padding + margin */
 /* Start color */
 .bg-white {
