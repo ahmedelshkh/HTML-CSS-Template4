@@ -998,6 +998,12 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     gap: 20px;
 }
+@media(max-width: 767px) {
+    .plans-page {
+        grid-template-columns: minmax(200px, 1fr);
+        gap: 10px;
+    }
+}
 .plans-page .box .head {
     border: 3px solid white;
 }
