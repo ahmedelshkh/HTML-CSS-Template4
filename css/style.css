@@ -1000,6 +1000,14 @@ html {
 }
 .plans-page .box .head {
     border: 3px solid white;
+}
+.plans-page .box.free .head {
+    outline: 3px solid var(--green-color);
+}
+.plans-page .box.basic .head {
+    outline: 3px solid var(--blue-color);
+}
+.plans-page .box.free .head {
     outline: 3px solid var(--green-color);
 }
 .plans-page .box .dollar {
