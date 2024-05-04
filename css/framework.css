@@ -80,6 +80,9 @@
 .pl-15 {
     padding-left: 15px;
 }
+.pl-20 {
+    padding-left: 20px;
+}
 .plr-10 {
     padding: 0 10px;
 }
@@ -215,6 +218,9 @@
 }
 .fs-25 {
     font-size: 25px;
+}
+.fs-40 {
+    font-size: 40px;
 }
 .fw-bold {
     font-weight: bold;

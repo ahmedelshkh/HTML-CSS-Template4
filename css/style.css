@@ -993,6 +993,43 @@ html {
     animation: go-up .8s infinite;
 }
 /* End Files Page */
+/* Start Plans Page */
+.plans-page {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 20px;
+}
+.plans-page .box .head {
+    border: 3px solid white;
+    outline: 3px solid var(--green-color);
+}
+.plans-page .box .dollar {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.plans-page .box .price {
+    margin: 5px auto 0 auto;
+}
+.plans-page .box ul li.true::before {
+    font-family: var(--font-awesome);
+    content: '\f00c';
+    font-weight: 900;
+    position: absolute;
+    color: var(--green-color);
+    font-size: 18px;
+}
+.plans-page .box ul li.false::before {
+    font-family: var(--font-awesome);
+    content: '\f00d';
+    font-weight: 900;
+    position: absolute;
+    color: var(--red-color);
+    font-size: 18px;
+}
+.plans-page .box ul li:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+}
+/* End Plans Page */
 /* Start Animation */
 @keyframes change-color {
     from {
