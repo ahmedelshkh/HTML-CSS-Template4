@@ -929,6 +929,12 @@ html {
     transition: .3s;
     cursor: pointer;
 }
+@media(max-width: 767px) {
+    .friends-page .box .footer a {
+    font-size: 10px;
+    padding: 2px 6px;
+}
+}
 .friends-page .box .contact i:hover {
     color: white;
     background-color: var(--blue-color);
