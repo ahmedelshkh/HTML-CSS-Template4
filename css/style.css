@@ -393,7 +393,7 @@ html {
     content: '';
     position: absolute;
     width: 2px;
-    height: 100%;
+    height: 95%;
     left: 11px;
     background-color: var(--blue-color);
     
@@ -425,21 +425,24 @@ html {
 }
 /* End Last Projects Progress Widget */
 /* Start Reminders Widget */
-.reminders ul li .content.blue {
+.reminders ul li .blue {
     border-left: 2px solid var(--blue-color);
 }
-.reminders ul li .content.green {
+.reminders ul li .green {
     border-left: 2px solid var(--green-color);
 }
-.reminders ul li .content.orange {
+.reminders ul li .orange {
     border-left: 2px solid var(--orange-color);
 }
-.reminders ul li .content.red {
+.reminders ul li .red {
     border-left: 2px solid var(--red-color);
 }
+.reminders ul li p {
+    font-size: 14px;
+}
 .reminders ul li > span {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 /* End Reminders Widget */
 /* Start Latest Post Widget */
@@ -499,7 +502,7 @@ html {
 }
 /* End Social Media Stats Widget */
 /* Start Projects Table */
-.projects-table .resbonsive-table {
+.projects-table .responsive-table {
     overflow-x: auto;
 }
 .projects-table table {
