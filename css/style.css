@@ -870,6 +870,24 @@ html {
 .projects-page .box .footer span.blue {
     background-color: var(--blue-color);
 }
+@media (max-width: 767px) {
+    .projects-page {
+        grid-template-columns: minmax(200px, 1fr);
+        gap:10px;
+    }
+    .projects-page .box .tags {
+        display: flex;
+        text-align: left;
+    }
+    .projects-page .box .tags span {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+    .projects-page .box .tags,
+    .projects-page .box .footer {
+        flex-direction: column;
+    }
+}
 /* End Projects Page */
 /* Start Courses Page */
 .courses-page {
