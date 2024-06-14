@@ -127,6 +127,7 @@ html {
 .content header input {
     border: 1px solid #ccc;
     border-radius:10px;
+    font-size:14px;
     outline: none;
     width: 160px;
     margin-left: 5px;
