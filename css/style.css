@@ -797,6 +797,12 @@ html {
     .profile-page .other-data {
         flex-direction: column;
     }
+    .profile-page .overview .avatar-box {
+        border-right: none;
+    }
+    .profile-page .overview {
+        padding: 0;
+    }
 }
 .profile-page .other-data .activity:not(:last-child) {
     padding-bottom: 20px;
